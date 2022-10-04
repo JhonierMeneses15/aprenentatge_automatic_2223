@@ -10,6 +10,10 @@ X, y = make_classification(n_samples=100, n_features=2, n_redundant=0, n_repeate
 y[y == 0] = -1  # La nostra implementació esta pensada per tenir les classes 1 i -1.
 
 
-# TODO: Normalitzar les dades
-# TODO: Entrenar usant l'algorisme de Batch gradient
-# TODO: Mostrar els resultats
+adeline = Adaline()
+norm_x = adeline.normalize(X)
+adeline.fit(norm_x, y)
+
+print(y)
+print(adeline.predict(X))
+
