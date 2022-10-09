@@ -15,19 +15,15 @@ X, y = make_classification(n_samples=400, n_features=5, n_redundant=0, n_repeate
 
 # Separar les dades: train_test_split
 
-# TODO
 
 # Estandaritzar les dades: StandardScaler
 
-# TODO
+
 
 # Entrenam una SVM linear (classe SVC)
 
-# TODO
 
 # Prediccio
-# TODO
 
 
 # Metrica
-# TODO
